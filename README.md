@@ -88,8 +88,8 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
 
 ## Model Evaluation
 ### Convolution Matrix
-  
-![image](https://github.com/user-attachments/assets/c8eed8a6-3170-4cb3-b6f3-960ff165dc2d)
+
+<img src="https://https://github.com/user-attachments/assets/c8eed8a6-3170-4cb3-b6f3-960ff165dc2d" width=50% height=50%>
 
 Gambar di atas menunjukkan gambar confusion matrix dari hasil klasifikasi jenis kelamin (female dan male).
 - Dari total 596 gambar perempuan, sebanyak 590 diklasifikasikan dengan benar sebagai female, sedangkan 6 gambar salah diklasifikasikan sebagai male.
