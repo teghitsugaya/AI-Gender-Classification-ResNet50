@@ -33,6 +33,7 @@ https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 ### Data Atribute
 DataSet Memiliki 40 Data Atribute, dan untuk project Gender Classification kita hanya akan menggunakan atribute Male.
+
 ![image](https://github.com/user-attachments/assets/17d0daa6-be6b-4d27-a13e-13b1675bc4e5)
 
 ### Data Distribution
@@ -45,11 +46,10 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
 ### Data Preparation
 #### Ekstrak Label
 1. Ambil Image Atribute Male, ubah label Male dari -1/1 menjadi 0/1. (Male = 1 dan Female = 0).
-2. Simpan ke dalam format CSV.
-   
+2. Simpan ke dalam format CSV.   
 ![image](https://github.com/user-attachments/assets/f414b567-0bce-4287-aa69-2db64aeaf89b)
-3. Filter Label Data dengan total Image yang ada (5000 images)
 
+3. Filter Label Data dengan total Image yang ada (5000 images)
 ![image](https://github.com/user-attachments/assets/5a3f125e-e141-4993-8ea9-12344266ed4d)
 
 #### Split Data
