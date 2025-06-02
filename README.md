@@ -67,11 +67,14 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
 ![image](https://github.com/user-attachments/assets/f9ac3540-732d-437e-8d6c-be34f4123655)
 - Hyperparameter Tuning
 ![image](https://github.com/user-attachments/assets/56ad19bb-9846-461d-ac71-fb595448d96e)
+
 ### Model Evaluation
 - Convolution Matrix
 ![image](https://github.com/user-attachments/assets/c8eed8a6-3170-4cb3-b6f3-960ff165dc2d)
+
 - Accuracy, Precision, Recall & F1-Score
 ![image](https://github.com/user-attachments/assets/e8f3a750-d5a8-4ea5-abf4-b171b690b5ae)
+
 - Accuracy per Epoch
 ![image](https://github.com/user-attachments/assets/1924ec5a-390d-416a-b695-40cccad3e870)
 
@@ -104,8 +107,6 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
   - RandomErasing
 
 ## Contact Us
-![image](https://github.com/user-attachments/assets/9fa85b8d-29e5-4c7f-a888-df30b29b28a3)
-
 LinkedIn: Teguh Imanto
 
 
