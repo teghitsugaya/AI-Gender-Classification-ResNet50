@@ -16,7 +16,7 @@ Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer serin
 ### 🎯 Objectives
 - Membangun model klasifikasi gender (laki-laki & perempuan) menggunakan algoritma deep learning populer ResNet50
 - Melakukan tuning hyperparameter, evaluasi pada algoritma tesebut.
-### Scope
+### 💡 Scope
 - Mengimplementasikan arsitektur CNN ResNet50 sebagai model klasifikasi.
 - Melatih dan menguji model untuk dua kelas saja: laki-laki dan perempuan.
 - Tidak mencakup klasifikasi usia, ekspresi wajah, atau identifikasi individu (face recognition berdasarkan identitas unik).
