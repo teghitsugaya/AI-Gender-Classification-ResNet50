@@ -16,6 +16,38 @@ Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer serin
 - Melatih dan menguji model untuk dua kelas saja: laki-laki dan perempuan.
 - Tidak mencakup klasifikasi usia, ekspresi wajah, atau identifikasi individu (face recognition berdasarkan identitas unik).
 
+## Data
+### DataSet
+
+## Model 
+### Model Development
+### Model Evaluation
+### Model Comparison
+
+## Real-World Application
+
+## Conclusion
+- ResNet50 menjadi pilihan model terbaik dalam eksperimen ini, menunjukkan kemampuan generalisasi yang baik untuk klasifikasi gender.
+- Meskipun ResNet18, GoogLeNet dan VGG19 dapat digunakan, mereka menunjukkan keterbatasan dalam recall untuk male dan overall accuracy terhadap data test.
+
+## Future Deveopment
+- Menggunakan Full Dataset Images pada Dataset CelebA (202.599 Data)
+- DataSet displit jadi 3 (train, valid, test)
+- Eksperimen dengan arsitektur baru
+  - EfficientNet
+  - Vision Transformer (ViT)
+  - ConvNeXt
+- Augmentasi tambahan u/ variasi citra (pose, pencahayaan, ekspresi)
+  - RandomRotation
+  - RandomHorizontalFlip
+  - ColorJitter
+  - RandomErasing
+
+## Contact Us
+Teguh Imanto
+LinkedIn: Teguh Imanto
+
+
 
 
 
