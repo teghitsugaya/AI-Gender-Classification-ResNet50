@@ -18,6 +18,23 @@ Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer serin
 
 ## Data
 ### DataSet
+Sumber DataSet berasal dari :
+**Large-scale CelebFaces Attributes (CelebA)**
+https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+
+![image](https://github.com/user-attachments/assets/02ce7651-8498-483e-aa99-df22f9a040e7)
+
+#### Format Data
+- Data Set terdiri dari 202.599 jumlah gambar wajah dengan 40 anotasi atribut biner per gambar.
+- Dari 202.599 jumlah gambar wajah, diambil 5000 sample jumlah gambar. https://drive.google.com/drive/folders/1BMcCUkpRA99ULUMWYUOboL19Yph2k3Vs
+
+#### Pembagia Data
+- Dataset dibagi menjadi 2 bagian utama untuk keperluan pelatihan dan pengujian model. (4000 Train Data | 1000 Test Data)
+
+
+
+
+
 
 ## Model 
 ### Model Development
