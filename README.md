@@ -7,6 +7,8 @@ Manfaat klasifikasi gender antara lain untuk analisis demografi, rekomendasi pro
 ### Problem Statement
 Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer sering kali menghadapi tantangan seperti pencahayaan tidak konsisten, ekspresi wajah, pose, dan kemiripan visual antar gender. 
 
+
+
 ## Objectives & Scope
 ### 🎯 Objectives
 - Membangun model klasifikasi gender (laki-laki & perempuan) menggunakan algoritma deep learning populer ResNet50
@@ -15,6 +17,8 @@ Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer serin
 - Mengimplementasikan arsitektur CNN ResNet50 sebagai model klasifikasi.
 - Melatih dan menguji model untuk dua kelas saja: laki-laki dan perempuan.
 - Tidak mencakup klasifikasi usia, ekspresi wajah, atau identifikasi individu (face recognition berdasarkan identitas unik).
+
+
 
 ## Data
 ### DataSet
