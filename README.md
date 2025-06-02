@@ -44,7 +44,6 @@ Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer serin
   - RandomErasing
 
 ## Contact Us
-Teguh Imanto
 LinkedIn: Teguh Imanto
 
 
