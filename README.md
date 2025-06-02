@@ -30,7 +30,7 @@ https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 - Data Set terdiri dari 202.599 jumlah gambar wajah dengan 40 anotasi atribut biner per gambar.
 - Dari 202.599 jumlah gambar wajah, diambil 5000 sample jumlah gambar. https://drive.google.com/drive/folders/1BMcCUkpRA99ULUMWYUOboL19Yph2k3Vs
 
-#### Pembagia Data
+#### Pembagian Data
 - Dataset dibagi menjadi 2 bagian utama untuk keperluan pelatihan dan pengujian model. (4000 Train Data | 1000 Test Data)
 
 <br />
@@ -65,7 +65,7 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
 
 <br />
 
-### Data Preprocessing
+## Data Preprocessing
 - Augmentation Data
   
 ![image](https://github.com/user-attachments/assets/5ba9cb15-2e5d-451b-bf99-7981401b3776)
@@ -73,8 +73,9 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
   
 ![image](https://github.com/user-attachments/assets/976eaf15-56ba-4160-8b5b-ce360d1047f0)
 
-## Model 
-### Model Development
+<br />
+
+## Model Development
 - Model Architecture
   
 ![image](https://github.com/user-attachments/assets/f9ac3540-732d-437e-8d6c-be34f4123655)
@@ -82,7 +83,9 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
   
 ![image](https://github.com/user-attachments/assets/56ad19bb-9846-461d-ac71-fb595448d96e)
 
-### Model Evaluation
+<br />
+
+## Model Evaluation
 - Convolution Matrix
   
 ![image](https://github.com/user-attachments/assets/c8eed8a6-3170-4cb3-b6f3-960ff165dc2d)
@@ -95,20 +98,28 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
   
 ![image](https://github.com/user-attachments/assets/1924ec5a-390d-416a-b695-40cccad3e870)
 
-### Model Comparison
+<br />
+
+## Model Comparison
 ![image](https://github.com/user-attachments/assets/6741aebc-02b4-4745-ac81-2ab0cc1a83c8)
 
 - ResNet50 menunjukkan performa terbaik, dengan akurasi tertinggi (98%) dan f1-score rata-rata mendekati 0.97–0.99.
 - GoogLeNet memiliki akurasi yang baik (95%), tetapi recall untuk male relatif lebih rendah (0.90).
 - ResNet18 memiliki akurasi (94%) dengan precision tinggi pada female (0.96), tetapi recall dan f1-score untuk male sedikit lebih rendah (0.90–0.92).
 - VGG19 memberikan hasil yang cukup baik (92% akurasi), tetapi lebih rendah dibanding model lainnya, dengan f1-score rata-rata 0.90–0.94.
+
+<br />
   
 ## Real-World Application
 ![image](https://github.com/user-attachments/assets/1ce5479c-4568-4f4c-a330-282fbe71b54a)
 
+<br />
+
 ## Conclusion
 - ResNet50 menjadi pilihan model terbaik dalam eksperimen ini, menunjukkan kemampuan generalisasi yang baik untuk klasifikasi gender.
 - Meskipun ResNet18, GoogLeNet dan VGG19 dapat digunakan, mereka menunjukkan keterbatasan dalam recall untuk male dan overall accuracy terhadap data test.
+
+<br />
 
 ## Future Deveopment
 - Menggunakan Full Dataset Images pada Dataset CelebA (202.599 Data)
@@ -122,6 +133,8 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
   - RandomHorizontalFlip
   - ColorJitter
   - RandomErasing
+
+<br />
 
 ## Contact Us
 LinkedIn: Teguh Imanto
