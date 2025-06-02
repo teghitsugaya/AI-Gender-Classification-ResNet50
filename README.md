@@ -50,6 +50,7 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
 ![image](https://github.com/user-attachments/assets/f414b567-0bce-4287-aa69-2db64aeaf89b)
 
 3. Filter Label Data dengan total Image yang ada (5000 images)
+   
 ![image](https://github.com/user-attachments/assets/5a3f125e-e141-4993-8ea9-12344266ed4d)
 
 #### Split Data
