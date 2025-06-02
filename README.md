@@ -90,13 +90,24 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
   
 ![image](https://github.com/user-attachments/assets/c8eed8a6-3170-4cb3-b6f3-960ff165dc2d)
 
-- Accuracy, Precision, Recall & F1-Score
+Gambar di atas menunjukkan gambar confusion matrix dari hasil klasifikasi jenis kelamin (female dan male).
+- Dari total 596 gambar perempuan, sebanyak 590 diklasifikasikan dengan benar sebagai female, sedangkan 6 gambar salah diklasifikasikan sebagai male.
+- Dari total 404 gambar laki-laki, sebanyak 388 diklasifikasikan dengan benar sebagai male, sementara 16 gambar salah diklasifikasikan sebagai female.
+Secara keseluruhan, model menunjukkan performa klasifikasi yang baik dengan mayoritas prediksi tepat sesuai label sebenarnya.
+
+- Classification Report
   
 ![image](https://github.com/user-attachments/assets/e8f3a750-d5a8-4ea5-abf4-b171b690b5ae)
 
 - Accuracy per Epoch
   
 ![image](https://github.com/user-attachments/assets/1924ec5a-390d-416a-b695-40cccad3e870)
+
+Gambar di atas merupakan grafik akurasi per epoch untuk data pelatihan (Train Accuracy) dan data pengujian (Test Accuracy).
+- Akurasi pelatihan (Train Accuracy) meningkat tajam pada awal pelatihan dan mencapai hampir 100% setelah epoch ke-2, kemudian stabil di angka maksimum hingga epoch ke-9. Hal ini menunjukkan bahwa model mampu belajar sangat baik dari data pelatihan.
+- Akurasi pengujian (Test Accuracy) juga mengalami peningkatan pada awal pelatihan, mencapai sekitar 97.9% pada epoch ke-8, namun tidak setinggi akurasi pelatihan dan mengalami sedikit fluktuasi antar epoch.
+
+Model menunjukkan performa yang sangat baik pada data pelatihan, tetapi ada indikasi awal terjadinya overfitting, karena akurasi pada data pengujian cenderung stagnan dan tidak mengikuti peningkatan akurasi pelatihan secara penuh. Meskipun demikian, performa model pada data pengujian tetap tinggi, yang berarti generalisasi model masih cukup baik.
 
 <br />
 
