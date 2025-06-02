@@ -17,7 +17,8 @@ Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer serin
 - Mengimplementasikan arsitektur CNN ResNet50 sebagai model klasifikasi.
 - Melatih dan menguji model untuk dua kelas saja: laki-laki dan perempuan.
 - Tidak mencakup klasifikasi usia, ekspresi wajah, atau identifikasi individu (face recognition berdasarkan identitas unik).
-
+<br />
+<br />
 ## Data
 ### DataSet
 Sumber DataSet berasal dari **Large-scale CelebFaces Attributes (CelebA)**.
