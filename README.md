@@ -52,17 +52,18 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
 #### Split Data
 - Split data menjadi 2 bagian, train_data dan test_data.
 - Dengan komposisi 80% train_data dan 20% test_data.
+  
 ![image](https://github.com/user-attachments/assets/0afa5809-583b-4874-9df5-0d000c7ebd5d)
 
 ### Data Preprocessing
 #### Augmentation Data
 ![image](https://github.com/user-attachments/assets/5ba9cb15-2e5d-451b-bf99-7981401b3776)
-####Preview Images Augmentation Data
+#### Preview Images Augmentation Data
 ![image](https://github.com/user-attachments/assets/976eaf15-56ba-4160-8b5b-ce360d1047f0)
 
 ## Model 
 ### Model Development
-#### Model Architecture
+**- Model Architecture**
 ![image](https://github.com/user-attachments/assets/f9ac3540-732d-437e-8d6c-be34f4123655)
 #### Hyperparameter Tuning
 ![image](https://github.com/user-attachments/assets/56ad19bb-9846-461d-ac71-fb595448d96e)
