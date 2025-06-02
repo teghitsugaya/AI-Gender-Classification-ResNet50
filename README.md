@@ -33,16 +33,13 @@ https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 - Dataset dibagi menjadi 2 bagian utama untuk keperluan pelatihan dan pengujian model. (4000 Train Data | 1000 Test Data)
 
 ### Data Atribute
-DataSet Memiliki 40 Data Atribute :
+DataSet Memiliki 40 Data Atribute, dan untuk project Gender Classification kita hanya akan menggunakan atribute Male.
 ![image](https://github.com/user-attachments/assets/17d0daa6-be6b-4d27-a13e-13b1675bc4e5)
-- untuk project Gender Classification, Kita hanya akan menggunakan atribute Male
 
 ### Data Distribution
-DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 2953 adalah 2953
+DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 2953 adalah 2953. Dimana jika dipersentase kan menjadi 41% Untuk Male dan 59% Untuk Female.
 #### Gender Distribution Table
 ![image](https://github.com/user-attachments/assets/5a004979-5d2d-4709-94d3-9bfd31313b44)
-
-Dimana jika dipersentase kan menjadi 41% Untuk Male dan 59% Untuk Female
 #### Gender Distribution Chart
 ![image](https://github.com/user-attachments/assets/49cadd7f-1e41-4785-8f8e-0f472fe4ea49)
 
@@ -50,8 +47,10 @@ Dimana jika dipersentase kan menjadi 41% Untuk Male dan 59% Untuk Female
 #### Ekstrak Label
 1. Ambil Image Atribute Male, ubah label Male dari -1/1 menjadi 0/1. (Male = 1 dan Female = 0).
 2. Simpan ke dalam format CSV.
+   
 ![image](https://github.com/user-attachments/assets/f414b567-0bce-4287-aa69-2db64aeaf89b)
 3. Filter Label Data dengan total Image yang ada (5000 images)
+
 ![image](https://github.com/user-attachments/assets/5a3f125e-e141-4993-8ea9-12344266ed4d)
 
 #### Split Data
