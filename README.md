@@ -100,6 +100,24 @@ Secara keseluruhan, model menunjukkan performa klasifikasi yang baik dengan mayo
   
 ![image](https://github.com/user-attachments/assets/e8f3a750-d5a8-4ea5-abf4-b171b690b5ae)
 
+Gambar di atas menunjukkan classification report yang merangkum metrik evaluasi model klasifikasi untuk dua kelas: female dan male. Model klasifikasi menghasilkan akurasi keseluruhan sebesar 0.98 (98%) pada 1.000 data pengujian.
+
+- Kelas female memiliki nilai:
+  - Precision: 0.97 → dari semua prediksi "female", 97% benar.
+  - Recall: 0.99 → dari semua data sebenarnya "female", 99% berhasil dikenali dengan benar.
+  - F1-score: 0.98 → harmonisasi antara precision dan recall menunjukkan performa sangat baik.
+
+- Kelas male memiliki nilai:
+  - Precision: 0.98 → dari semua prediksi "male", 98% benar.
+  - Recall: 0.96 → dari semua data sebenarnya "male", 96% dikenali dengan benar.
+  - F1-score: 0.97 → menunjukkan performa yang juga sangat baik.
+
+- Rata-rata metrik:
+  - Macro average F1-score adalah 0.97 → rata-rata F1-score dari kedua kelas, tanpa memperhatikan jumlah data per kelas.
+  - Weighted average F1-score adalah 0.98 → rata-rata F1-score yang mempertimbangkan jumlah data per kelas.
+
+Model menunjukkan performa klasifikasi yang sangat baik untuk kedua kelas, dengan akurasi tinggi dan keseimbangan yang baik antara precision dan recall. Tidak ada kelas yang secara signifikan diabaikan oleh model.
+
 ### Accuracy per Epoch
   
 ![image](https://github.com/user-attachments/assets/1924ec5a-390d-416a-b695-40cccad3e870)
