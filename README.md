@@ -19,9 +19,9 @@ Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer serin
 
 ## Data
 ### DataSet
-Sumber DataSet berasal dari **Large-scale CelebFaces Attributes (CelebA)**
-
+Sumber DataSet berasal dari **Large-scale CelebFaces Attributes (CelebA)**.
 https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+
 ![image](https://github.com/user-attachments/assets/02ce7651-8498-483e-aa99-df22f9a040e7)
 
 #### Format Data
