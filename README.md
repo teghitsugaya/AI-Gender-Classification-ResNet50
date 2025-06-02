@@ -45,19 +45,48 @@ Dimana jika dipersentase kan menjadi 41% Untuk Male dan 59% Untuk Female
 ![image](https://github.com/user-attachments/assets/49cadd7f-1e41-4785-8f8e-0f472fe4ea49)
 
 ### Data Preparation
+#### Ekstrak Label
+1. Ambil Image Atribute Male, ubah label Male dari -1/1 menjadi 0/1. (Male = 1 dan Female = 0).
+2. Simpan ke dalam format CSV.
+![image](https://github.com/user-attachments/assets/f414b567-0bce-4287-aa69-2db64aeaf89b)
+3. Filter Label Data dengan total Image yang ada (5000 images)
+![image](https://github.com/user-attachments/assets/5a3f125e-e141-4993-8ea9-12344266ed4d)
+
+#### Split Data
+- Split data menjadi 2 bagian, train_data dan test_data.
+- Dengan komposisi 80% train_data dan 20% test_data.
+![image](https://github.com/user-attachments/assets/0afa5809-583b-4874-9df5-0d000c7ebd5d)
+
 ### Data Preprocessing
-
-
-
-
-
+#### Augmentation Data
+![image](https://github.com/user-attachments/assets/5ba9cb15-2e5d-451b-bf99-7981401b3776)
+####Preview Images Augmentation Data
+![image](https://github.com/user-attachments/assets/976eaf15-56ba-4160-8b5b-ce360d1047f0)
 
 ## Model 
 ### Model Development
+#### Model Architecture
+![image](https://github.com/user-attachments/assets/f9ac3540-732d-437e-8d6c-be34f4123655)
+#### Hyperparameter Tuning
+![image](https://github.com/user-attachments/assets/56ad19bb-9846-461d-ac71-fb595448d96e)
 ### Model Evaluation
-### Model Comparison
+#### Convolution Matrix
+![image](https://github.com/user-attachments/assets/c8eed8a6-3170-4cb3-b6f3-960ff165dc2d)
+#### Accuracy, Precision, Recall & F1-Score
+![image](https://github.com/user-attachments/assets/e8f3a750-d5a8-4ea5-abf4-b171b690b5ae)
+#### Accuracy per Epoch
+![image](https://github.com/user-attachments/assets/1924ec5a-390d-416a-b695-40cccad3e870)
 
+### Model Comparison
+![image](https://github.com/user-attachments/assets/6741aebc-02b4-4745-ac81-2ab0cc1a83c8)
+
+- ResNet50 menunjukkan performa terbaik, dengan akurasi tertinggi (98%) dan f1-score rata-rata mendekati 0.97–0.99.
+- GoogLeNet memiliki akurasi yang baik (95%), tetapi recall untuk male relatif lebih rendah (0.90).
+- ResNet18 memiliki akurasi (94%) dengan precision tinggi pada female (0.96), tetapi recall dan f1-score untuk male sedikit lebih rendah (0.90–0.92).
+- VGG19 memberikan hasil yang cukup baik (92% akurasi), tetapi lebih rendah dibanding model lainnya, dengan f1-score rata-rata 0.90–0.94.
+  
 ## Real-World Application
+![image](https://github.com/user-attachments/assets/1ce5479c-4568-4f4c-a330-282fbe71b54a)
 
 ## Conclusion
 - ResNet50 menjadi pilihan model terbaik dalam eksperimen ini, menunjukkan kemampuan generalisasi yang baik untuk klasifikasi gender.
@@ -77,6 +106,8 @@ Dimana jika dipersentase kan menjadi 41% Untuk Male dan 59% Untuk Female
   - RandomErasing
 
 ## Contact Us
+![image](https://github.com/user-attachments/assets/9fa85b8d-29e5-4c7f-a888-df30b29b28a3)
+
 LinkedIn: Teguh Imanto
 
 
