@@ -60,7 +60,7 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah **Male** 
 1. Check Duplicated Data using hashlib (images hash)
 2. Delete Duplicated Data
 
-<img src="https://github.com/user-attachments/assets/f9332761-9b6e-4da3-8505-68677b640b3a" width=30% height=30%>
+<img src="https://github.com/user-attachments/assets/f9332761-9b6e-4da3-8505-68677b640b3a" width=80% height=80%>
 
 #### 🏷️ Ekstrak Label
 1. Ambil Image Atribute Male, ubah label Male dari -1/1 menjadi 0/1. (Male = 1 dan Female = 0).
