@@ -7,6 +7,8 @@ Manfaat klasifikasi gender antara lain untuk analisis demografi, rekomendasi pro
 ### Problem Statement
 Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer sering kali menghadapi tantangan seperti pencahayaan tidak konsisten, ekspresi wajah, pose, dan kemiripan visual antar gender. 
 
+<br />
+
 ## Objectives & Scope
 ### 🎯 Objectives
 - Membangun model klasifikasi gender (laki-laki & perempuan) menggunakan algoritma deep learning populer ResNet50
@@ -31,19 +33,25 @@ https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 #### Pembagia Data
 - Dataset dibagi menjadi 2 bagian utama untuk keperluan pelatihan dan pengujian model. (4000 Train Data | 1000 Test Data)
 
+<br />
+
 ## Data Atribute
 DataSet Memiliki 40 Data Atribute, dan untuk project Gender Classification kita hanya akan menggunakan atribute Male.
 
 ![image](https://github.com/user-attachments/assets/17d0daa6-be6b-4d27-a13e-13b1675bc4e5)
 
+<br />
+
 ## Data Distribution
 DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 2953 adalah 2953. Dimana jika dipersentase kan menjadi 41% Untuk Male dan 59% Untuk Female.
-- Gender Distribution Table
+#### Gender Distribution Table
 ![image](https://github.com/user-attachments/assets/5a004979-5d2d-4709-94d3-9bfd31313b44)
-- Gender Distribution Chart
+#### Gender Distribution Chart
 ![image](https://github.com/user-attachments/assets/49cadd7f-1e41-4785-8f8e-0f472fe4ea49)
 
-### Data Preparation
+<br />
+
+## Data Preparation
 #### Ekstrak Label
 1. Ambil Image Atribute Male, ubah label Male dari -1/1 menjadi 0/1. (Male = 1 dan Female = 0).
 2. Simpan ke dalam format CSV.
@@ -54,6 +62,8 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 
 - Dengan komposisi 80% train_data dan 20% test_data.
   
 ![image](https://github.com/user-attachments/assets/0afa5809-583b-4874-9df5-0d000c7ebd5d)
+
+<br />
 
 ### Data Preprocessing
 - Augmentation Data
