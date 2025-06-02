@@ -112,11 +112,7 @@ Gambar di atas menunjukkan classification report yang merangkum metrik evaluasi 
   - Recall: 0.96 → dari semua data sebenarnya "male", 96% dikenali dengan benar.
   - F1-score: 0.97 → menunjukkan performa yang juga sangat baik.
 
-- Rata-rata metrik:
-  - Macro average F1-score adalah 0.97 → rata-rata F1-score dari kedua kelas, tanpa memperhatikan jumlah data per kelas.
-  - Weighted average F1-score adalah 0.98 → rata-rata F1-score yang mempertimbangkan jumlah data per kelas.
-
-Model menunjukkan performa klasifikasi yang sangat baik untuk kedua kelas, dengan akurasi tinggi dan keseimbangan yang baik antara precision dan recall. Tidak ada kelas yang secara signifikan diabaikan oleh model.
+Model menunjukkan performa klasifikasi yang sangat baik untuk kedua kelas, dengan akurasi tinggi dan keseimbangan yang baik antara precision dan recall. 
 
 ### Accuracy per Epoch
   
@@ -133,6 +129,8 @@ Model menunjukkan performa yang sangat baik pada data pelatihan, tetapi ada indi
 ## Model Comparison
 ![image](https://github.com/user-attachments/assets/6741aebc-02b4-4745-ac81-2ab0cc1a83c8)
 
+Pada Project ini, saya membandingkan hasil model ResNet50 dengan beberapa model lainnya yang dikerjakan oleh satu tim project, yaitu ResNet18, GoogLeNet, dan VGG19. Didapatkan bahwa:  
+
 - ResNet50 menunjukkan performa terbaik, dengan akurasi tertinggi (98%) dan f1-score rata-rata mendekati 0.97–0.99.
 - GoogLeNet memiliki akurasi yang baik (95%), tetapi recall untuk male relatif lebih rendah (0.90).
 - ResNet18 memiliki akurasi (94%) dengan precision tinggi pada female (0.96), tetapi recall dan f1-score untuk male sedikit lebih rendah (0.90–0.92).
@@ -142,6 +140,13 @@ Model menunjukkan performa yang sangat baik pada data pelatihan, tetapi ada indi
   
 ## Real-World Application
 ![image](https://github.com/user-attachments/assets/1ce5479c-4568-4f4c-a330-282fbe71b54a)
+
+Gambar di atas menunjukkan contoh penerapan model klasifikasi jenis kelamin di dunia nyata (Real-World Application).
+- Gambar sebelah kiri memperlihatkan hasil prediksi terhadap seorang pria, dengan label terprediksi male dan tingkat kepercayaan (confidence) sebesar 0.64.
+- Gambar sebelah kanan memperlihatkan hasil prediksi terhadap seorang wanita, dengan label terprediksi female dan tingkat kepercayaan sebesar 0.53.
+
+Meskipun confidence-nya tidak terlalu tinggi, model tetap mampu mengklasifikasikan kedua gambar sesuai dengan jenis kelamin yang benar, menunjukkan kemampuannya untuk digunakan dalam skenario nyata.
+
 
 <br />
 
