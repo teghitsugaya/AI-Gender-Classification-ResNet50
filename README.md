@@ -151,10 +151,7 @@ Meskipun confidence-nya tidak terlalu tinggi, model tetap mampu mengklasifikasik
 <br />
 
 ## Conclusion
-- ResNet50 menjadi pilihan model terbaik dalam eksperimen ini, menunjukkan kemampuan generalisasi yang baik untuk klasifikasi gender.
-- Meskipun ResNet18, GoogLeNet dan VGG19 dapat digunakan, mereka menunjukkan keterbatasan dalam recall untuk male dan overall accuracy terhadap data test.
-
-<br />
+ResNet50 menjadi pilihan model terbaik dalam eksperimen ini, menunjukkan kemampuan generalisasi yang baik untuk klasifikasi gender.
 
 ## Future Deveopment
 - Menggunakan Full Dataset Images pada Dataset CelebA (202.599 Data)
@@ -168,8 +165,6 @@ Meskipun confidence-nya tidak terlalu tinggi, model tetap mampu mengklasifikasik
   - RandomHorizontalFlip
   - ColorJitter
   - RandomErasing
-
-<br />
 
 ## Contact Us
 LinkedIn: Teguh Imanto
