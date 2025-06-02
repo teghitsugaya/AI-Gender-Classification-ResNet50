@@ -18,8 +18,7 @@ Meskipun klasifikasi gender tampak sederhana bagi manusia, sistem komputer serin
 
 ## Data
 ### DataSet
-Sumber DataSet berasal dari :
-**Large-scale CelebFaces Attributes (CelebA)**
+Sumber DataSet berasal dari **Large-scale CelebFaces Attributes (CelebA)**
 https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 ![image](https://github.com/user-attachments/assets/02ce7651-8498-483e-aa99-df22f9a040e7)
@@ -30,6 +29,22 @@ https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 #### Pembagia Data
 - Dataset dibagi menjadi 2 bagian utama untuk keperluan pelatihan dan pengujian model. (4000 Train Data | 1000 Test Data)
+
+### Data Atribute
+DataSet Memiliki 40 Data Atribute :
+![image](https://github.com/user-attachments/assets/17d0daa6-be6b-4d27-a13e-13b1675bc4e5)
+- untuk project Gender Classification, Kita hanya akan menggunakan atribute Male
+
+### Data Distribution
+DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 2953 adalah 2953
+#### Gender Distribution Table
+![image](https://github.com/user-attachments/assets/5a004979-5d2d-4709-94d3-9bfd31313b44)
+Dimana jika dipersentase kan menjadi 41% Untuk Male dan 59% Untuk Female
+#### Gender Distribution Chart
+![image](https://github.com/user-attachments/assets/49cadd7f-1e41-4785-8f8e-0f472fe4ea49)
+
+### Data Preparation
+### Data Preprocessing
 
 
 
