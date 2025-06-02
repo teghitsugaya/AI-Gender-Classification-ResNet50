@@ -46,7 +46,7 @@ DataSet Memiliki 40 Data Atribute, dan untuk project Gender Classification kita 
 <br />
 
 ## 📊 Data Distribution
-DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah Male dan 2953 adalah 2953. Dimana jika dipersentase kan menjadi 41% Untuk Male dan 59% Untuk Female.
+DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah **Male** dan 2953 adalah **Female**. Jika dipersentase kan menjadi 41% Untuk Male dan 59% Untuk Female.
 #### 📋 Gender Distribution Table
 <img src="https://github.com/user-attachments/assets/a346659f-63fb-4f07-9b2a-541e5acbba07" width=30% height=30%>
 
