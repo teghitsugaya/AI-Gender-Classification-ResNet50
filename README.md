@@ -1,4 +1,7 @@
 # AI - Gender Classification with ResNet50
+
+![image](https://github.com/user-attachments/assets/36a12543-4beb-47ec-8290-3c7cfcf97fe6)
+
 ## Introduction
 ### Background
 Pengenalan wajah (face recognition) adalah teknologi AI yang digunakan di bidang keamanan, pemasaran, dan interaksi manusia-komputer. Salah satu penerapannya adalah klasifikasi gender berdasarkan citra wajah.
