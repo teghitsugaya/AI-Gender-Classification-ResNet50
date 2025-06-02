@@ -67,6 +67,8 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah **Male** 
 2. Simpan ke dalam format CSV.
 3. Filter Label Data dengan total Image yang ada (5000 images)
 
+<img src="https://github.com/user-attachments/assets/280f6fcd-5cad-4dcb-9858-e6e1b74beae2" width=80% height=80%>
+
 #### ✂️ Split Data
 - Split data menjadi 2 bagian, train_data dan test_data.
 - Dengan komposisi 80% train_data dan 20% test_data.
