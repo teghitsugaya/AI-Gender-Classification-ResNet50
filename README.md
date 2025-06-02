@@ -60,14 +60,14 @@ DataSet yang digunakan, memiliki 5000 total sample, dimana 2047 adalah **Male** 
 1. Check Duplicated Data using hashlib (images hash)
 2. Delete Duplicated Data
 
-<img src="https://github.com/user-attachments/assets/f9332761-9b6e-4da3-8505-68677b640b3a" width=80% height=80%>
+<img src="https://github.com/user-attachments/assets/f9332761-9b6e-4da3-8505-68677b640b3a" width=70% height=70%>
 
 #### 🏷️ Ekstrak Label
 1. Ambil Image Atribute Male, ubah label Male dari -1/1 menjadi 0/1. (Male = 1 dan Female = 0).
 2. Simpan ke dalam format CSV.
 3. Filter Label Data dengan total Image yang ada (5000 images)
 
-<img src="https://github.com/user-attachments/assets/94ba7c31-a7ec-467f-91bc-3f96f401ecfb" width=80% height=80%>
+<img src="https://github.com/user-attachments/assets/94ba7c31-a7ec-467f-91bc-3f96f401ecfb" width=70% height=70%>
 
 #### ✂️ Split Data
 - Split data menjadi 2 bagian, train_data dan test_data.
